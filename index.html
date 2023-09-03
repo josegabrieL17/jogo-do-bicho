@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stayle.css">
+    <title>Escolha um Bicho</title>
+</head>
+<body>
+    <h2 class="importante"><strong>este site não tem intuito de influenciar nenhum tipo de atividade ilegal é apenas uma sátira e não deve ser levado a sério em momento nenhum!</strong></h2>
+    
+    <h1>Escolha um Bicho:</h1>
+
+    <!-- Grade de imagens para seleção -->
+    <div class="linha">
+        <div class="imagem" onclick="selecionarImagem('avestruz')">
+            <img src="avestruz.jpeg" alt="Avestruz">
+        </div>
+
+        <div class="imagem" onclick="selecionarImagem('aguia')">
+            <img src="aguiafudida.jpg" alt="Águia">
+        </div>
+
+
+        <div class="imagem" onclick="selecionarImagem('borboleta')">
+            <img src="borboleta.jpg" alt="Borboleta">
+        </div>
+
+        <div class="imagem" onclick="selecionarImagem('burro')">
+            <img src="burro.jpg" alt="Burro">
+        </div>
+
+        <div class="imagem" onclick="selecionarImagem('cabra')">
+        <img src="cabra.jpg" alt="Cabra">
+        </div>
+
+        <div class="imagem" onclick="selecionarImagem('cachorro')">
+            <img src="cachorro.jpg" alt="Cachorro">
+        </div>
+
+        <div class="imagem" onclick="selecionarImagem('camelo')">
+            <img src="camelo.jpg" alt="Camelo">
+        </div>
+
+        <div class="imagem" onclick="selecionarImagem('carneiro')">
+            <img src="carneiro.jpg" alt="Carneiro">
+        </div>
+        
+        <div class="imagem" onclick="selecionarImagem('cavalo')"> 
+        <img src="cavalo.jpg" alt="Cavalo">
+        </div>
+        
+        <div class="imagem" onclick="selecionarImagem('cobra')"> 
+        <img src="cobra.jpg" alt="Cobra">
+        </div>
+        
+        <div class="imagem" onclick="selecionarImagem('coelho')"> 
+        <img src="coelho.jpg" alt="Coelho">
+        </div>
+        
+        <div class="imagem" onclick="selecionarImagem('elefante')"> 
+        <img src="elefante.jpg" alt="Elefante">
+        </div>
+        
+        <div class="imagem" onclick="selecionarImagem('galo')"> 
+        <img src="galo.jpeg" alt="Galo">
+        </div>
+        
+        <div class="imagem" onclick="selecionarImagem('gato')"> 
+        <img src="gato.jpg" alt="Gato">
+        </div>
+        
+        <div class="imagem" onclick="selecionarImagem('jacare')"> 
+        <img src="jacare.jpg" alt="Jacaré">
+        </div>
+        
+        <div class="imagem" onclick="selecionarImagem('leao')"> 
+        <img src="leao.jpg" alt="Leão">
+        </div>
+        
+        <div class="imagem" onclick="selecionarImagem('macaco')"> 
+        <img src="macaco.jpg" alt="Macaco">
+        </div>
+        
+        <div class="imagem" onclick="selecionarImagem('pavao')"> 
+        <img src="pavao.jpeg" alt="Pavão">
+        </div>
+        
+        <div class="imagem" onclick="selecionarImagem('peru')"> 
+        <img src="Peru.jpeg" alt="Peru">
+        </div>
+        
+        <div class="imagem" onclick="selecionarImagem('porco')"> 
+        <img src="porco.jpg" alt="Porco">
+        </div>
+        
+        <div class="imagem" onclick="selecionarImagem('tigre')"> 
+        <img src="tigre.jpg" alt="Tigre">
+        </div>
+        
+        <div class="imagem" onclick="selecionarImagem('touro')"> 
+        <img src="touro-transformed (1).jpeg" alt="Touro">
+        </div>
+        
+        <div class="imagem" onclick="selecionarImagem('urso')"> 
+        <img src="urso.png" alt="Urso">
+        </div>
+        
+        <div class="imagem" onclick="selecionarImagem('vaca')"> 
+        <img src="vaca.jpg" alt="Vaca">
+        </div>
+        
+        <div class="imagem" onclick="selecionarImagem('veado')"> 
+        <img src="veado.jpeg" alt="Veado">
+        </div>
+    </div>
+    <!-- Adicione outras imagens para os outros bichos kkkk -->
+
+    <!-- Botão para verificar o sorteio -->
+    <button onclick="verificarSorteio()">Verificar Sorteio</button>
+
+    <!-- Resultado do sorteio -->
+    <div id="resultado">
+        <h2>Resultado do Sorteio:</h2>
+        <p id="animalGanhador"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

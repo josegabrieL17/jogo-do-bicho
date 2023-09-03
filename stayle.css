@@ -1,0 +1,53 @@
+/*body{
+    background-color: rgb(82, 82, 82);
+}*/
+
+/* Estilos para a imagem selecionada */
+.imagem.selecionada {
+    border: 4px solid green;
+}
+
+/* Estilos para a imagem */
+.imagem {
+    display: inline-block;
+    width: 30%; /* Define a largura desejada para cada imagem (ajuste conforme necessário) */
+    margin: 10px; /* Espaçamento entre as imagens */
+    text-align: center;
+}
+
+/* Limpa o estilo padrão da imagem */
+.imagem img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Cria uma nova linha de imagens a cada 3 */
+.imagem:nth-child(6n+1) {
+    clear: left;
+}
+
+/* Estilos para a imagem */
+.imagem {
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    margin: 10px; /* Espaçamento entre as imagens */
+    text-align: center;
+}
+
+/* Limpa o estilo padrão da imagem */
+.imagem img {
+    width: 100%;
+    height: 100%;
+}
+
+/*teste maluco*/
+body {
+    background: linear-gradient(to bottom, #ff0022, #984acd, #7f7fff);
+}
+
+.importante{
+    text-decoration: underline;
+}
+
