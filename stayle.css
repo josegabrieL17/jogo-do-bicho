@@ -51,12 +51,10 @@ body {
     text-decoration: underline;
 }
 
-/* Estilize o botão "Verificar Sorteio" para torná-lo maior em dispositivos móveis */
+/* Estilize o botão "Verificar Sorteio" para torná-lo ainda maior e mais visível em dispositivos móveis */
 @media (max-width: 768px) { /* Ajuste esse valor de acordo com suas necessidades */
     button {
-        font-size: 20px; /* Aumenta o tamanho da fonte */
-        padding: 10px 20px; /* Aumenta o preenchimento (espaço dentro do botão) */
+        font-size: 24px; /* Aumenta o tamanho da fonte */
+        padding: 20px 40px; /* Aumenta o preenchimento (espaço dentro do botão) */
     }
 }
-
-
